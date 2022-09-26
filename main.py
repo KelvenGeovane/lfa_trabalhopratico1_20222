@@ -34,4 +34,4 @@ def lerarquivo():
 
 
 states, initial, accepting, alphabet, transitions = lerarquivo()
-print(states)
+print(transitions)
