@@ -4,15 +4,8 @@ from nfa import NFA
 
 states, initial, accepting, alphabet, transitions = lerarquivo()
 dfa = DFA(states, alphabet, transitions,
-          initial[0], accepting, "01010")
+          initial[0], accepting, "abcb")
 
 
 print(lerarquivo())
 print(dfa.lerTeste())
-print()
-
-
-# automaton = NFA(transitions, alphabet, initial[0], accepting, states)
-# validWord, graph = automaton.validateWord("0010101")
-# print(validWord)
-# print(graph)
